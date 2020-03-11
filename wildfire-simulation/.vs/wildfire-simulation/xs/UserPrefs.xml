@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{629F928D-C3E0-B873-FD01-BCDC185782ED}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Heightmaps/fuel.txt">
+    <Files>
+      <File FileName="Assets/FuelGenerator.cs" Line="29" Column="1" />
+      <File FileName="Assets/Heightmaps/jsonFuel.txt" Line="1" Column="591447" />
+      <File FileName="Assets/Heightmaps/fuel.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-firstpass PreferredExecutionTarget="69115ef6-2196-400f-8b4e-bd12985a1960" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ec2fce50-9e36-484e-9a8d-e842d8ca2325" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
