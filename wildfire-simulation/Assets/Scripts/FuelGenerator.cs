@@ -23,11 +23,13 @@ public class FuelGenerator : MonoBehaviour
     [Header("References")]
     [SerializeField] private List<GameObject> fuelPrefabs;
 
+    [Header("Options")]
+    [SerializeField] private int densityLevel = 20;
+
     private const float SCALE_FACTOR = 4f;
     private const float OFFSET_X = -(512 - 382) / 2 * SCALE_FACTOR + 2048;
     private const float OFFSET_Z = (512 - 266) / 2 * SCALE_FACTOR;
 
-    private const int DENSITY_LEVEL = 20;
 
     private void Start()
     {
@@ -40,9 +42,9 @@ public class FuelGenerator : MonoBehaviour
         var fuelPositions = new Dictionary<FuelModel, List<Vector3>>();
 
         var j = 0;
-        foreach (string line in File.ReadLines(@"Assets/Heightmaps/fuel.txt"))
+        foreach (string line in File.ReadLines(@"Assets/Terrain/fuel.txt"))
         {
-            if (j % DENSITY_LEVEL != 0)
+            if (j % densityLevel != 0)
             {
                 j++;
                 continue;
@@ -53,7 +55,7 @@ public class FuelGenerator : MonoBehaviour
             var i = 0;
             foreach (string str in strings)
             {
-                if (i % DENSITY_LEVEL != 0)
+                if (i % densityLevel != 0)
                 {
                     i++;
                     continue;
@@ -98,6 +100,7 @@ public class FuelGenerator : MonoBehaviour
     private GameObject CreateFuelObject(FuelModel fuelModel, Vector3 position)
     {
         var fuelObject = Instantiate(fuelPrefabs[0], position, Quaternion.identity, transform);
+        fuelObject.name = fuelModel.ToString();
         return fuelObject;
     }
 

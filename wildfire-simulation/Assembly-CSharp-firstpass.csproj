@@ -132,31 +132,31 @@
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/johnnanmonzon/Documents/unity-projects/wildfire-simulation/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/johnnanmonzon/Documents/wildfire-simulation/wildfire-simulation/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
