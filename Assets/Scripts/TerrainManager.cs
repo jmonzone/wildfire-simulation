@@ -33,6 +33,7 @@ public class TerrainManager : MonoBehaviour
         }
             
         terrainData.SetHeights(0, 0, heights);
+
         Debug.Log($"Terrain heights initialized.");
     }
 }
