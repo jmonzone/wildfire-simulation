@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Helper class for object pool design pattern to increase performance
 public class ObjectPool : MonoBehaviour
 {
     [SerializeField] private GameObject poolObjectPrefab;

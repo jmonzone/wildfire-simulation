@@ -601,3 +601,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireObjectPool: {fileID: 875973004}
   ashObjectPool: {fileID: 968044558}
+  fireDensityLevel: 10

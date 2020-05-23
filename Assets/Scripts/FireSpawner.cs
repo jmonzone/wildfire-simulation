@@ -1,16 +1,17 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using UnityEngine;
 
+//READS the file from FireUpdater.OUTPUT_FILE_PATH, and spawns fire objects
 [RequireComponent(typeof(FireUpdater))]
 public class FireSpawner : MonoBehaviour
 {
     [SerializeField] private ObjectPool fireObjectPool;
     [SerializeField] private ObjectPool ashObjectPool;
 
-    [Tooltip("Used to customize performance. Use 1 for max performance.")]
-    [SerializeField] private int fireDensityLevel;
+    [Tooltip("Used to customize the density of fire spawned. Use 1 for high density, 10 for low density.")]
+    [Range(1, 10)]
+    [SerializeField] private int fireDensityLevel = 3;
 
     private void Awake()
     {

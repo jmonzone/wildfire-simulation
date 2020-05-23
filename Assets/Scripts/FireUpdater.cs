@@ -3,8 +3,7 @@ using System.Collections;
 using System.IO;
 using UnityEngine;
 
-
-//Calls a method to set the values of an output txt file on every interval after being toggled on
+//Calls a method to WRITE the values on output txt file on every interval. NEEDS to be toggled on
 //Currently being toggled by the FireStarter.cs file on Mouse Button click
 public class FireUpdater : MonoBehaviour
 {

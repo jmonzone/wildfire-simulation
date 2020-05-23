@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+//Controller class to toggle fire update
 [RequireComponent(typeof(FireUpdater))]
 public class FireStarter : MonoBehaviour
 {
